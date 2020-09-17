@@ -7,7 +7,6 @@ Odamboy 10:49
 Akmal: 10:53 am
 Zuhriddin: 11:20
 Sayriddin -hello 10.30 am
-<<<<<<< HEAD
 Akmal - its getting difficult 11:35
 zuhriddin hello everybody
 Admin: Simon says go to the mailbox and bring me all the mails
