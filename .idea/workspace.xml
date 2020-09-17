@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a89f3edb-58bd-4edb-8b40-53d2d3aa8966" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/jontoshmatov.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,6 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600098210764</updated>
       <workItem from="1600098211908" duration="67000" />
+      <workItem from="1600099428110" duration="2104000" />
+      <workItem from="1600291515958" duration="1589000" />
     </task>
     <servers />
   </component>
@@ -60,11 +64,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2534" y="266" key="NewPhpFileDialog" timestamp="1600098237654">
-      <screen x="1920" y="0" width="1707" height="689" />
+    <state x="518" y="342" key="NewPhpFileDialog" timestamp="1600291736952">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="2534" y="266" key="NewPhpFileDialog/0.0.1280.688/1920.0.1707.689@1920.0.1707.689" timestamp="1600098237654" />
+    <state x="518" y="341" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1600099504252" />
+    <state x="518" y="342" key="NewPhpFileDialog/0.23.1440.826@0.23.1440.826" timestamp="1600291736952" />
+    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1600291773151">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1600291773151" />
   </component>
 </project>
