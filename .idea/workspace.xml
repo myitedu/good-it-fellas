@@ -10,7 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a89f3edb-58bd-4edb-8b40-53d2d3aa8966" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="a89f3edb-58bd-4edb-8b40-53d2d3aa8966" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/jontoshmatov.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> 3244214a5c1dceb849379f12be3922a32b6b537f
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,10 +39,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a89f3edb-58bd-4edb-8b40-53d2d3aa8966" name="Default Changelist" comment="" />
@@ -44,7 +52,10 @@
       <option name="presentableId" value="Default" />
       <updated>1600098210764</updated>
       <workItem from="1600098211908" duration="67000" />
+<<<<<<< HEAD
       <workItem from="1600099778461" duration="7003000" />
+=======
+>>>>>>> 3244214a5c1dceb849379f12be3922a32b6b537f
     </task>
     <servers />
   </component>
@@ -64,14 +75,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600099866560">
-      <screen x="0" y="23" width="1440" height="828" />
-    </state>
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.828@0.23.1440.828" timestamp="1600099866560" />
-    <state x="518" y="343" key="NewPhpFileDialog" timestamp="1600099954274">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="2534" y="266" key="NewPhpFileDialog" timestamp="1600098237654">
+      <screen x="1920" y="0" width="1707" height="689" />
     </state>
     <state x="2534" y="266" key="NewPhpFileDialog/0.0.1280.688/1920.0.1707.689@1920.0.1707.689" timestamp="1600098237654" />
-    <state x="518" y="343" key="NewPhpFileDialog/0.23.1440.828@0.23.1440.828" timestamp="1600099954274" />
   </component>
 </project>
