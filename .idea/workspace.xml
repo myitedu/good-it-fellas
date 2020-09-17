@@ -52,7 +52,11 @@
       <option name="presentableId" value="Default" />
       <updated>1600098210764</updated>
       <workItem from="1600098211908" duration="67000" />
-      <workItem from="1600099770862" duration="4333000" />
+      <workItem from="1600099770862" duration="7367000" />
+      <workItem from="1600255746601" duration="1954000" />
+      <workItem from="1600315730313" duration="1000" />
+      <workItem from="1600317340489" duration="783000" />
+      <workItem from="1600351886105" duration="251000" />
     </task>
     <servers />
   </component>
@@ -81,5 +85,9 @@
     </state>
     <state x="2534" y="266" key="NewPhpFileDialog/0.0.1280.688/1920.0.1707.689@1920.0.1707.689" timestamp="1600098237654" />
     <state x="645" y="422" key="NewPhpFileDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1600099858217" />
+    <state x="1042" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1600175287528">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="1042" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1792.1033@0.23.1792.1033" timestamp="1600175287528" />
   </component>
 </project>
