@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a89f3edb-58bd-4edb-8b40-53d2d3aa8966" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a89f3edb-58bd-4edb-8b40-53d2d3aa8966" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +44,7 @@
       <updated>1600098210764</updated>
       <workItem from="1600098211908" duration="67000" />
       <workItem from="1600099428110" duration="2104000" />
-      <workItem from="1600291515958" duration="1589000" />
+      <workItem from="1600291515958" duration="1920000" />
     </task>
     <servers />
   </component>
@@ -73,9 +70,13 @@
     <state x="2534" y="266" key="NewPhpFileDialog/0.0.1280.688/1920.0.1707.689@1920.0.1707.689" timestamp="1600098237654" />
     <state x="518" y="341" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1600099504252" />
     <state x="518" y="342" key="NewPhpFileDialog/0.23.1440.826@0.23.1440.826" timestamp="1600291736952" />
-    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1600291773151">
+    <state x="405" y="88" width="604" height="735" key="find.popup" timestamp="1600353558394">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1600291773151" />
+    <state x="405" y="88" width="604" height="735" key="find.popup/0.23.1440.826@0.23.1440.826" timestamp="1600353558394" />
+    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1600353548786">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="385" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1600353548786" />
   </component>
 </project>
