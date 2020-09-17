@@ -3,6 +3,6 @@
 </head>
 <body>
 </body>
-
-</HYML>
-<sayriddin >
+<p>sayriddin</p>
+</body>
+</HTML>
