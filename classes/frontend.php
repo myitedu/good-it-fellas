@@ -9,13 +9,19 @@
 </head>
 <body>
 <h3>This is a Frontend</h3>
-<hr>
-Go to <a href="backend.php">Backend</a>
-<style>
-    body{
-        background-color: #d7eea9;
-        color: darkred;
-    }
-</style>
+<form action="september24.php" method="get">
+    <p>
+        <input name="full_name" type="text" placeholder="Your full name">
+    </p>
+    <p>
+        Your Message <br>
+        <textarea name="your_message" placeholder="Your message goes here">
+
+        </textarea>
+    </p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>
 </body>
 </html>
