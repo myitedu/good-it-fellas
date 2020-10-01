@@ -13,60 +13,127 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
+<?php
+    $parms = $_GET;
+    $serial1 = $parms['serial1']??null;
+    $serial2 = $parms['serial2']??null;
+    $serial3 = $parms['serial3']??null;
+    $serial4 = $parms['serial4']??null;
+    $serial5 = $parms['serial5']??null;
+    $error = false;
+    $msg = null;
+
+    #ALL FILED RULES:
+    #Rule 1
+    $serial1_rule = preg_match("#[A-Z]{5,5}#", $serial1);
+    if (!$serial1_rule){
+        $error = true;
+        $msg = "Serial 1 is INVALID";
+    }
+    #Rule 2
+    $serial2_rule = preg_match("#[0-9]{5,5}#", $serial2);
+    if (!$serial2_rule){
+        $error = true;
+        $msg = "Serial 2 is INVALID";
+    }
+    #Rule 3
+    $serial3_rule = preg_match("#[A-Z]{5,5}#", $serial3);
+    if (!$serial3_rule){
+        $error = true;
+        $msg = "Serial 3 is INVALID";
+    }
+    #Rule 4
+    $serial4_rule = preg_match("#[0-9]{5,5}#", $serial4);
+    if (!$serial4_rule){
+        $error = true;
+        $msg = "Serial 4 is INVALID";
+    }
+    #Rule 5
+    $serial5_rule = preg_match("#[A-Z]{5,5}#", $serial5);
+    if (!$serial5_rule){
+        $error = true;
+        $msg = "Serial 5 is INVALID";
+    }
+
+?>
 <div class="container-fluid">
     <div id="activation_form">
-        <div class="content1">
-            <div class="content1_title">Windows XP Professional Setup</div>
-            <div class="content1_button"><img
-                        src="https://1001freedownloads.s3.amazonaws.com/icon/thumb/652/Close_Box_Red.png"></div>
-        </div>
-        <div class="content2">
-            <div class="content2_title">
-                <h5>Your Product Key</h5>
-                <span>Your Product Key uniquely identifies your copy of Windows XP</span>
+        <form action="windows_activation.php" method="get">
+            <div class="content1">
+                <div class="content1_title">Windows XP Professional Setup</div>
+                <div class="content1_button"><img
+                            src="https://1001freedownloads.s3.amazonaws.com/icon/thumb/652/Close_Box_Red.png"></div>
             </div>
-            <div class="content2_button"><img
-                        src="https://1001freedownloads.s3.amazonaws.com/icon/thumb/98/social_windows_button.png"></div>
-        </div>
-        <div class="content3">
-            <div class="content3_top">
-                <div class="content3_top_img">
-                    <img src="../../img/sample_product_barcode.png">
+            <div class="content2">
+                <div class="content2_title">
+                    <h5>Your Product Key</h5>
+                    <span>Your Product Key uniquely identifies your copy of Windows XP</span>
                 </div>
-                <div class="content3_top_text">
-                    The 25-character Product Key appears on the yellow sticker<br>
-                    on the back of your Windows CD folder.<br><br>
-                    Type the Product key below:
+                <div class="content2_button"><img
+                            src="https://1001freedownloads.s3.amazonaws.com/icon/thumb/98/social_windows_button.png"></div>
+            </div>
+            <div class="content3">
+                <div class="content3_top">
+                    <div class="content3_top_img">
+                        <img src="../../img/sample_product_barcode.png">
+                    </div>
+                    <div class="content3_top_text">
+                        The 25-character Product Key appears on the yellow sticker<br>
+                        on the back of your Windows CD folder.<br><br>
+                        Type the Product key below:
+                    </div>
+                    <div class="myitedu">WWW.MYITEDU.US</div>
                 </div>
-                <div class="myitedu">WWW.MYITEDU.US</div>
-            </div>
-            <div class="content3_bottom">
-                <div class="content3_title">Product Key:</div>
-                <input required="required" maxlength="5" minlength="5" class="serial_key" name="serial1" type="text"
-                       placeholder="AAAAA"> -
-                <input required="required" maxlength="5" minlength="5" class="serial_key" name="serial2" type="text"
-                       placeholder="12345"> -
-                <input required="required" maxlength="5" minlength="5" class="serial_key" name="serial3" type="text"
-                       placeholder="AAAAA"> -
-                <input required="required" maxlength="5" minlength="5" class="serial_key" name="serial4" type="text"
-                       placeholder="12345"> -
-                <input required="required" maxlength="5" minlength="5" class="serial_key" name="serial5" type="text"
-                       placeholder="AAAAA">
-            </div>
-        </div>
-        <div class="content4">
-            <div class="content4_buttons">
-                <button type="button">< Back</button>
-                <button type="submit">Next ></button>
-            </div>
+                <div class="content3_bottom">
+                    <div class="content3_title">Product Key:</div>
+                    <input value="<?php echo $serial1;?>" required="required" maxlength="5" minlength="5" class="serial_key" name="serial1" type="text"
+                           placeholder="AAAAA"> -
+                    <input value="<?php echo $serial2;?>"  required="required" maxlength="5" minlength="5" class="serial_key" name="serial2" type="text"
+                           placeholder="12345"> -
+                    <input value="<?php echo $serial3;?>"  required="required" maxlength="5" minlength="5" class="serial_key" name="serial3" type="text"
+                           placeholder="AAAAA"> -
+                    <input value="<?php echo $serial4;?>"  equired="required" maxlength="5" minlength="5" class="serial_key" name="serial4" type="text"
+                           placeholder="12345"> -
+                    <input value="<?php echo $serial5;?>"  required="required" maxlength="5" minlength="5" class="serial_key" name="serial5" type="text"
+                           placeholder="AAAAA">
+                    <?php
+                        if ($error){
+                    ?>
+                        <div class="alert alert-danger myalert" role="alert">
+                           <?php echo $msg;?>
+                        </div>
 
-        </div>
+                    <?php
+                     }
+                        else{
+                    ?>
+
+                            <div class="alert alert-success myalert" role="alert">
+                                Successfull
+                            </div>
+                    <?php
+
+                        }
+                    ?>
+                </div>
+            </div>
+            <div class="content4">
+                <div class="content4_buttons">
+                    <button type="button">< Back</button>
+                    <button type="submit">Next ></button>
+                </div>
+
+            </div>
+        </form>
     </div>
 </div>
 <style>
     /*Content3 codes*/
-
-    .myitedu{
+    .myalert{
+        width: 80%;
+        margin: auto;
+    }
+    .myitedu {
         font-size: 27px;
         color: darkred;
         font-weight: bolder;
@@ -212,7 +279,7 @@
     .content1 {
         width: 100%;
         height: 25px;
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,18,140,1) 24%, rgba(0,212,255,1) 100%);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(18, 18, 140, 1) 24%, rgba(0, 212, 255, 1) 100%);
         color: white;
         border-bottom: 1px solid black;
     }
