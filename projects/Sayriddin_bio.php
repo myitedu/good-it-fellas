@@ -5,3 +5,6 @@
 #Right now I live in Nashville
 #My hobbies are programming and going infor sports
 #Currently i study at MYITEDU
+
+
+echo "This is Sayriddin's file";
